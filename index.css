@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid red;
+    min-height: 100vh;
+    background-image:url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header nav{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+.ham-times{
+    display: none;
+}
+
+
+.main{
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    font-size: 50px;
+    color: aqua;
+    margin-top: 0px;
+}
+
+ul li{
+    color: var(--White);
+    color: aqua;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.root{
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+.egg-section{
+    border: 2px solid purple;
+    display: flex;
+
+}
+.egg-text{
+    border: 2px solid red;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.egg-box{
+    border: 3px solid blue;
+    max-width: 500px;
+}
+.brand{
+    padding: 20px;
+}
+.we{
+    padding: 20px;
+}
+.Learn{
+    padding: 20px;
+}
+.egg-image{
+    border: 2px solid blue;
+    height: 500px;
+    width: 100%;
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.cup-section{
+    border: 2px solid red;
+    display: flex;
+} 
+
+.cup-image{
+    border: 2px solid blue;
+    height: 500px;
+    width: 100%;
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cup-text{
+    border: 2px solid blue;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cup-hold{
+    max-width: 500px; 
+}
+.asshole-cup{
+    padding: 20px;
+}
+.apple-section{
+    border: 2px solid red;
+    display: flex;
+} 
+
+
+.apple-image{
+     border: 3px solid blue;
+     height: 500px;
+     width: 100%;
+     background-image: url(./images/desktop/image-graphic-design.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.apple-box{
+    padding: 50px;
+}
+.apple-end{
+    max-width: 500px;
+    margin-top: 300px;
+}
+.orange-image{
+    border: 2px solid blueviolet;
+    height: 500px;
+    width: 100%;
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.orange-box{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.orange-end{
+    max-width: 400px;
+    margin-top: 300px;
+
+}
+
+.client-image{
+    border: 2px solid red;
+    width: 100%;
+
+}
+
+.text{
+    border: 2px solid red;
+    margin: 30px;
+    text-align: center;
+}
+
+.dick{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    height: auto;
+    
+}
+ 
+.pussy{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+ }
+
+ .ass{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+ }
+
+ .breast{
+    text-align: center;
+ }
+
+ .client1{
+    border: 2px solid red;
+    height: 400px;
+    margin: 20px;
+    width: 25%;
+ }
+ 
+ .client2{
+    border: 2px solid red;
+    height: 400px;
+    margin: 20px;
+    width: 25%;
+ }
+ 
+ .client3{
+    border: 2px solid red;
+    height: 400px;
+    margin: 20px;
+    width: 25%;
+ }
+
+
+
+.emily{
+    border-radius: 500px;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+.thomas{
+    border-radius: 500px;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.Jennie{
+    border-radius: 500px;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.below-section{
+    display: grid;
+    grid-template-columns: var(4,1fr);
+}
+.milk{
+    height: 300px;
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plate{
+    height: 300px;
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ice-cream{
+    height: 300px;
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.sugar{
+    height: 300px;
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+footer{ 
+    background-color: rgb(158, 162, 158);
+    text-align: center;
+    height: 350px;
+}
+.fish{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+}
+.About{
+    border: 2px solid red;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.dog{
+    margin-top: 50px;
+}
+.social{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.edit{
+    width: 30px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+   .ham-times{
+    display: block;
+   }
+   .nav ul{
+    display: none;
+   }
+   .egg-section{
+    flex-direction: column;
+   }
+   .cup-section{
+    flex-direction: column;
+   }
+   .apple-section{
+    flex-direction: column;
+   }
+   .dick{
+    flex-direction: column;
+   }
+   .client1{
+    width: 100%;
+   }
+   .client2{
+    width: 100%;
+   }
+   .client3{
+    width: 100%;
+   }
+   .below-section{
+    grid-template-columns: repeat(2, 1fr);
+   }
+
+}
